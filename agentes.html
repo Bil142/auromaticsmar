@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>What is an Agent Bot? | SMar Technology</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: #ecf0f1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 2rem 1rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.45);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      opacity: 0.85;
+    }
+    main {
+      flex-grow: 1;
+      max-width: 1000px;
+      margin: 2rem auto 4rem;
+      padding: 0 2rem;
+      text-align: left;
+    }
+    h2 {
+      font-size: 2.2rem;
+      color: #fff;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.15rem;
+      margin-bottom: 1.4rem;
+      line-height: 1.65;
+      max-width: 700px;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 3rem;
+      padding: 14px 28px;
+      background: #16a085;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(22,160,133,0.6);
+    }
+    a.back:hover {
+      background: #1abc9c;
+      box-shadow: 0 6px 14px rgba(26,188,156,0.75);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.45);
+      color: #bdc3c7;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>What is an Agent Bot?</h1>
+    <p>Explore the future of automation with real examples</p>
+  </header>
+
+  <main>
+    <h2>What is an agent bot for?</h2>
+    <p>
+      An <strong>agent bot</strong> is a digital assistant that automates tasks such as answering frequently asked questions,
+      scheduling appointments, guiding your customers, and much more. It’s available 24 hours a day, 7 days a week.
+    </p>
+    <p>
+      They are ideal for businesses that want to provide better customer service without increasing staffing costs. They integrate artificial intelligence, guided menus, and can be placed on your website, WhatsApp, or even work without having a website.
+    </p>
+
+    <p><strong>This assistant is an example; schedules and details such as the phone number are fictional.</strong></p>
+
+    <p><strong>To try the bot:</strong> click on the message button located at the bottom right.</p>
+
+    <a href="index.html" class="back" aria-label="Go back to the homepage">← Back to Home</a>
+  </main>
+
+  <footer>
+    SMar Technology &copy; 2025 | Contact: 
+    <a href="mailto:iasmartechnology@gmail.com" style="color:#16a085; text-decoration:none;">
+      iasmartechnology@gmail.com
+    </a>
+  </footer>
+
+  <!-- 🧠 Chatbot button script (should be placed before </body>) -->
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "53e8238a-4818-4539-96f7-c6e55e482023",
+        apiHost: "https://cloud.flowiseai.com",
+    })
+  </script>
+</body>
+</html>
